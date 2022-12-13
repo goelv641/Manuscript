@@ -1,5 +1,11 @@
 body {
     font-family: 'Space Grotesk';
+	margin: 0%;
+	padding: 0%;
+	
+}
+*{
+	box-sizing: border-box;
 }
 .topnav {
 	display: flex;
@@ -9,11 +15,13 @@ body {
 	font-size: 16px;
 	font-weight: bold;
 	border: solid 2px black;
-	/* position: fixed; */
-	/* box-sizing: border-box; */
+	position: fixed;
+	top: 0%;
+	left: 0%;
 	/* padding: 10px; */
 	margin: 0%;
-	width: 100%;
+	width: 100vw;
+	height: 5vh;
   }
 
 .topnav a {
@@ -40,26 +48,59 @@ body {
 h1 {
     font-size: 70px;
 	color: #006142;
-	padding-top: 5%;
-	/* margin-top: 200px; */
+	line-height: 70px;
+	margin: 0%;
+	padding: 0%;
 }
 
 h2 {
 	font-size: 50px;
 	color: #006142;
-	margin-top: -54px;
+	/* margin-top: -54px; */
+	line-height: 50px;
+	margin: 0%;
+	padding: 0%;
 }
-
-
 
 h6 {
 	font-size: 12px;
 	color: light grey;
 	/* font-style: oblique; */
+	position: absolute;
+	bottom: 5vh;
+	padding-right: 3%;
 }
 
 p {
 	color: rgb(38, 38, 38);
+	margin-top: 0%;
+	padding-top: 0%;
 }
 
+.bodytext {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5vh;
+}
 
+.title {
+	width: 40%;
+	/* background-color: green; */
+	padding: 3%;
+	
+}
+
+.absolutetext {
+	position: fixed;
+	top: 5vh;
+	left: 0%;
+	width: 40%;
+	padding: 3%;
+	background-color: antiquewhite;
+	height: 95vh;
+}
+
+.text {
+	width: 60%;
+	padding: 3%;
+}
